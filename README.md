@@ -4,6 +4,10 @@ Tiny Windows tray indicator for supported Razer wireless devices.
 
 It polls the mouse every 5 minutes using the same battery request shape used by OpenRazer-derived Windows tools, then draws the percentage directly into the tray icon. It does not run Electron, Razer Synapse, a browser runtime, or a background service.
 
+## Requirements
+
+Razer Synapse must be installed and must have been run at least once so it can register the mouse and write its local device state. Synapse does not need to stay open in the foreground for this utility to read the battery level.
+
 ## Run
 
 ```powershell
