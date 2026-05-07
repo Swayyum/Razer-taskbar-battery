@@ -6,7 +6,7 @@ It polls the mouse every 5 minutes using the same battery request shape used by 
 
 ## Requirements
 
-Razer Synapse must be installed and must have been run at least once so it can register the mouse and write its local device state. Synapse does not need to stay open in the foreground for this utility to read the battery level.
+Razer Synapse must be installed and must have been run at least once so it can register the mouse and write its local device state. Synapse does not need to stay open in the foreground for this utility to read the battery level. MAKE SURE TO REMOVE SYNAPSE FROM STARTUP APPS IN TASKMANAGER!
 
 ## Run
 
